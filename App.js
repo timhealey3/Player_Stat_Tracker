@@ -508,7 +508,7 @@ function Stats({ navigation }) {
       <View style={styles.containerStats}>
         <View style={styles.userCard}>
           <View style={styles.userInfo}>
-            <Text style={styles.userName}>My Goalie</Text>
+            <Text style={styles.userName}>My Player</Text>
             <Text style={styles.userFollowers}>Record: {fetchedData[4]} - {fetchedData[5]} - {fetchedData[6]}</Text>
           </View>
         </View>
